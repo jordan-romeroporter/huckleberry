@@ -33,6 +33,12 @@ main {
   border-top: 8px solid hsl(0deg, 0%, 60%);
 }
 
+main > .max-width-wrapper {
+  background-color: hsla(0, 0%, 100%, 1);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
+
 .card > h2 {
   background-color: hsla(45, 100%, 50%, 1);
     width: fit-content;
@@ -49,11 +55,6 @@ main {
 
 .title {
   margin-bottom:48px;
-}
-
-main > .max-width-wrapper {
-  background-color: hsla(0, 0%, 100%, 1);
-  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .intro-chunk {
