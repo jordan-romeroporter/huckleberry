@@ -56,13 +56,13 @@ main > .max-width-wrapper {
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
-.intro-chunk > p:last-child {
-  margin-bottom: 64px;
-} 
-
 .intro-chunk {
   max-width: 400px;
 }
+
+.intro-chunk > p:last-child {
+  margin-bottom: 64px;
+} 
 
 .card {
   padding-top: 8px;
